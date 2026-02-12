@@ -1,0 +1,61 @@
+# Build results (root and any subfolder)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio (root and any subfolder)
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.userprefs
+
+# Sensitive / never commit
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/secrets.json
+secrets.json
+appsettings.*.local.json
+*.pfx
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET
+*.log
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
